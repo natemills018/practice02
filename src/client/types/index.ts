@@ -10,6 +10,8 @@ export interface Category {
     name: string;
 }
 
+
+
 export interface Book {
     id: number;
     category_id: Category["id"];

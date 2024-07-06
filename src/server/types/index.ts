@@ -29,10 +29,10 @@ export interface Payload {
     email: User["email"];
 }
 
-declare global {
-    namespace Express {
-        export interface Request {
-            user: Payload;
-        }
-    }
-}
+// declare global {
+//     namespace Express {
+//         export interface Request {
+//             user: Payload;
+//         }
+//     }
+// }
